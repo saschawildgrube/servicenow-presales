@@ -19,9 +19,9 @@
         <sys_id>0afcdc8ddb1d69106a03dad1f3961944</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>estimate</sys_name>
-        <sys_package display_value="PreSales" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
+        <sys_package display_value="PreSales WORK IN PROGRESS" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
         <sys_policy/>
-        <sys_scope display_value="PreSales">358be3001b2b51105b76777d8b4bcb58</sys_scope>
+        <sys_scope display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</sys_scope>
         <sys_update_name>sys_ui_page_0afcdc8ddb1d69106a03dad1f3961944</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-02-26 20:05:24</sys_updated_on>

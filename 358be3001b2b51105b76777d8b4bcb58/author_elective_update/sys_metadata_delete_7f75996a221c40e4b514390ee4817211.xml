@@ -42,7 +42,7 @@ RecordDuplicate.prototype = {
     </sys_es_latest_script>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="PreSales">358be3001b2b51105b76777d8b4bcb58</application>
+        <application display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</application>
         <file_path/>
         <instance_id>220092723b73421816e44a8aa4e45ab1</instance_id>
         <instance_name>wildxanadu</instance_name>
@@ -81,10 +81,10 @@ RecordDuplicate.prototype = {
         <sys_metadata>70e158149305a650959b7fda2bba1080</sys_metadata>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>RecordDuplicate</sys_name>
-        <sys_package display_value="PreSales" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
+        <sys_package display_value="PreSales WORK IN PROGRESS" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_scope display_value="PreSales">358be3001b2b51105b76777d8b4bcb58</sys_scope>
+        <sys_scope display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</sys_scope>
         <sys_scope_delete display_value="">d227e6d991564d2cba0e461fe46c1e10</sys_scope_delete>
         <sys_update_name>sys_metadata_delete_7f75996a221c40e4b514390ee4817211</sys_update_name>
         <sys_update_version display_value="sys_script_include_70e158149305a650959b7fda2bba1080">86e198149305a650959b7fda2bba1088</sys_update_version>

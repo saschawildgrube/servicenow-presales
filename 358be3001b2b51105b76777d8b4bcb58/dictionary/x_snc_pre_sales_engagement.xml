@@ -1,50 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6cd775b21b312550cd6153d16b4bcbd9" extends="task" label="PreSales Engagement" max_length="40" name="x_snc_pre_sales_engagement" type="collection">
-        <element choice="1" label="Inbound Integrations" max_length="40" name="integrations_inbound" type="choice">
+        <element choice="1" label="Outbound Integrations" max_length="40" name="integrations_outbound" type="choice">
             <choice>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
                 <element inactive_on_update="false" label="Yes" sequence="2" value="yes"/>
-            </choice>
-        </element>
-        <element label="Data Entities List" max_length="4000" name="data_entities_list" type="string"/>
-        <element choice="1" label="Internationalization" max_length="40" name="internationalization" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="No, English only." sequence="1" value="no"/>
-                <element inactive_on_update="false" label="Yes" sequence="2" value="yes"/>
-            </choice>
-        </element>
-        <element label="One-time Data Imports List" max_length="4000" name="one_time_data_imports_list" type="string"/>
-        <element choice="1" label="Type" max_length="40" name="type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="ServiceNow-led" sequence="1" value="servicenow_led"/>
-                <element inactive_on_update="false" label="Partner-led" sequence="2" value="partner_led"/>
-                <element inactive_on_update="false" label="Customer-led" sequence="3" value="customer_led"/>
-            </choice>
-        </element>
-        <element choice="1" label="Open Source Policy" max_length="40" name="open_source_policy" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Open Source contributions CAN NOT be used in the project" sequence="2" value="deny"/>
-                <element inactive_on_update="false" label="Open Source contributions may be used in the project after passing a rigorous review process" sequence="3" value="exception"/>
-                <element inactive_on_update="false" label="Open Source contributions can be used in the project" sequence="1" value="allow"/>
-            </choice>
-        </element>
-        <element choice="1" label="Quality" max_length="40" name="quality" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Minimum Viable Product" sequence="3" value="mvp"/>
-                <element inactive_on_update="false" label="Robust Product" sequence="4" value="robust"/>
-                <element inactive_on_update="false" label="Research" sequence="1" value="research"/>
-                <element inactive_on_update="false" label="Proof of Concept" sequence="2" value="poc"/>
-            </choice>
-        </element>
-        <element label="Additional Tasks List" max_length="4000" name="additional_tasks_list" type="string"/>
-        <element label="Business Capabilities List" max_length="4000" name="business_capabilities_list" type="string"/>
-        <element label="Internal Team" max_length="2000" name="contacts_internal" type="string_full_utf8"/>
-        <element label="Inbound Integrations List" max_length="4000" name="integrations_inbound_list" type="string"/>
-        <element choice="1" label="Now Mobile" max_length="40" name="mobile" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
-                <element inactive_on_update="false" label="Yes, introducing the Mobile App" sequence="2" value="yes_new"/>
-                <element inactive_on_update="false" label="Yes, modification of existing mobile app features" sequence="3" value="yes_existing"/>
             </choice>
         </element>
         <element choice="1" label="Data Segregation required" max_length="40" name="data_segregation_required" type="choice">
@@ -53,42 +12,7 @@
                 <element inactive_on_update="false" label="Yes" sequence="2" value="yes"/>
             </choice>
         </element>
-        <element label="Languages List" max_length="2000" name="languages_list" type="string"/>
-        <element label="Open Questions" max_length="4000" name="open_questions" type="string"/>
-        <element label="Reference" max_length="40" name="reference" type="string"/>
-        <element choice="1" label="UI Builder / Next Experience / Configurable Workspace" max_length="40" name="ui_builder" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
-                <element inactive_on_update="false" label="Yes, new Experience" sequence="2" value="yes_new"/>
-                <element inactive_on_update="false" label="Yes, extending an existing Experience" sequence="3" value="yes_existing"/>
-            </choice>
-        </element>
-        <element choice="1" label="Quality of Requirements Documentation" max_length="40" name="quality_of_requirements" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Bullet Points" sequence="1" value="low"/>
-                <element inactive_on_update="false" label="Powerpoint" sequence="2" value="medium"/>
-                <element inactive_on_update="false" label="Detailed Documents" sequence="3" value="high"/>
-            </choice>
-        </element>
-        <element label="UI Builder Components List" max_length="4000" name="ui_builder_components_list" type="string"/>
-        <element label="Business Processes List" max_length="4000" name="business_processes_list" type="string"/>
-        <element label="Partner Contacts" max_length="2000" name="contacts_partner" type="string_full_utf8"/>
-        <element display="true" label="Display" max_length="200" name="display" read_only="true" type="string"/>
-        <element label="Notes" max_length="2000" name="notes" type="string"/>
-        <element choice="1" label="Context" max_length="40" name="context" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Greenfield" sequence="1" value="greenfield"/>
-                <element inactive_on_update="false" label="Improvement of existing product" sequence="2" value="improvement"/>
-                <element inactive_on_update="false" label="Replacement of existing product" sequence="3" value="replacement"/>
-            </choice>
-        </element>
-        <element choice="1" label="Outbound Integrations" max_length="40" name="integrations_outbound" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
-                <element inactive_on_update="false" label="Yes" sequence="2" value="yes"/>
-            </choice>
-        </element>
-        <element label="Now Mobile Capabilities List" mandatory="true" max_length="4000" name="mobile_capabilities_list" type="string"/>
+        <element label="Outbound Integrations List" max_length="4000" name="integrations_outbound_list" type="string"/>
         <element choice="1" label="Deployment Method" max_length="40" name="deployment_method" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Source Control / AppRepo" sequence="2" value="source_control"/>
@@ -96,29 +20,119 @@
                 <element inactive_on_update="false" label="Update Sets" sequence="1" value="update_sets"/>
             </choice>
         </element>
-        <element label="Out of Scope" max_length="4000" name="out_of_scope" type="string"/>
-        <element choice="1" label="Service Catalog" max_length="40" name="service_catalog" type="choice">
+        <element label="Open Questions" max_length="4000" name="open_questions" type="string"/>
+        <element label="Now Mobile Capabilities List" mandatory="true" max_length="4000" name="mobile_capabilities_list" type="string"/>
+        <element choice="1" label="Quality of Requirements Documentation" max_length="40" name="quality_of_requirements" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+                <element inactive_on_update="false" label="Bullet Points" sequence="1" value="low"/>
+                <element inactive_on_update="false" label="Powerpoint" sequence="2" value="medium"/>
+                <element inactive_on_update="false" label="Detailed Documents" sequence="3" value="high"/>
+            </choice>
+        </element>
+        <element label="Service Portal Features List" mandatory="true" max_length="4000" name="service_portal_features_list" type="string"/>
+        <element label="Catalog Items List" mandatory="true" max_length="4000" name="catalog_items_list" type="string"/>
+        <element label="UI Builder Pages List" mandatory="true" max_length="4000" name="ui_builder_pages_list" type="string"/>
+        <element label="Partner Contacts" max_length="2000" name="contacts_partner" type="string_full_utf8"/>
+        <element display="true" label="Display" max_length="200" name="display" read_only="true" type="string"/>
+        <element choice="1" label="Internationalization" max_length="40" name="internationalization" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No, English only." sequence="1" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="yes"/>
+            </choice>
+        </element>
+        <element label="Notes" max_length="2000" name="notes" type="string"/>
+        <element choice="1" label="Open Source Policy" max_length="40" name="open_source_policy" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open Source contributions can be used in the project" sequence="1" value="allow"/>
+                <element inactive_on_update="false" label="Open Source contributions CAN NOT be used in the project" sequence="2" value="deny"/>
+                <element inactive_on_update="false" label="Open Source contributions may be used in the project after passing a rigorous review process" sequence="3" value="exception"/>
+            </choice>
+        </element>
+        <element label="Reference" max_length="40" name="reference" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Partner-led" sequence="2" value="partner_led"/>
+                <element inactive_on_update="false" label="Customer-led" sequence="3" value="customer_led"/>
+                <element inactive_on_update="false" label="ServiceNow-led" sequence="1" value="servicenow_led"/>
+            </choice>
+        </element>
+        <element choice="1" label="Context" max_length="40" name="context" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Greenfield" sequence="1" value="greenfield"/>
+                <element inactive_on_update="false" label="Improvement of existing product" sequence="2" value="improvement"/>
+                <element inactive_on_update="false" label="Replacement of existing product" sequence="3" value="replacement"/>
+            </choice>
+        </element>
+        <element label="Company Name" mandatory="true" max_length="200" name="company_name" type="string"/>
+        <element choice="1" label="Web Accessibility Requirements" max_length="40" name="web_accessibility_requirements" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="WCAG AA" sequence="3" value="wcag_aa"/>
+                <element inactive_on_update="false" label="WCAG AAA" sequence="4" value="wcag_aaa"/>
+                <element inactive_on_update="false" label="None - ServiceNow OOTB capabilities are sufficient" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="WCAG A" sequence="2" value="wcag_a"/>
+            </choice>
+        </element>
+        <element choice="1" label="Existing Data Segregation" max_length="40" name="existing_data_segregation" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Doman Separation (WITH Process Separation)" sequence="3" value="domain_separation_process"/>
+                <element inactive_on_update="false" label="Custom Solution" sequence="4" value="custom"/>
+                <element inactive_on_update="false" label="None" sequence="1" value="none"/>
+                <element inactive_on_update="false" label="DataSilos" sequence="5" value="datasilos"/>
+                <element inactive_on_update="false" label="Doman Separation (without Process Separation)" sequence="2" value="domain_separation"/>
+                <element inactive_on_update="false" label="Hybrid" sequence="6" value="hybrid"/>
+            </choice>
+        </element>
+        <element choice="1" label="Inbound Integrations" max_length="40" name="integrations_inbound" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
             </choice>
         </element>
-        <element label="UI Builder Pages List" mandatory="true" max_length="4000" name="ui_builder_pages_list" type="string"/>
-        <element label="Company Name" mandatory="true" max_length="200" name="company_name" type="string"/>
-        <element label="Catalog Items List" mandatory="true" max_length="4000" name="catalog_items_list" type="string"/>
-        <element label="Outbound Integrations List" max_length="4000" name="integrations_outbound_list" type="string"/>
-        <element choice="1" label="Existing Data Segregation" max_length="40" name="existing_data_segregation" type="choice">
+        <element label="Languages List" max_length="2000" name="languages_list" type="string"/>
+        <element choice="1" label="One-time Data Imports" max_length="40" name="one_time_data_imports" type="choice">
             <choice>
-                <element inactive_on_update="false" label="DataSilos" sequence="5" value="datasilos"/>
-                <element inactive_on_update="false" label="None" sequence="1" value="none"/>
-                <element inactive_on_update="false" label="Hybrid" sequence="6" value="hybrid"/>
-                <element inactive_on_update="false" label="Doman Separation (without Process Separation)" sequence="2" value="domain_separation"/>
-                <element inactive_on_update="false" label="Doman Separation (WITH Process Separation)" sequence="3" value="domain_separation_process"/>
-                <element inactive_on_update="false" label="Custom Solution" sequence="4" value="custom"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="yes"/>
             </choice>
         </element>
-        <element label="Country" max_length="32" name="country" reference="core_country" type="reference"/>
+        <element label="Out of Scope" max_length="4000" name="out_of_scope" type="string"/>
+        <element label="Assumptions" max_length="4000" name="assumptions" type="string"/>
+        <element choice="1" label="Service Catalog" max_length="40" name="service_catalog" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
+        <element label="Business Capabilities List" max_length="4000" name="business_capabilities_list" type="string"/>
+        <element choice="1" label="UI Builder / Next Experience / Configurable Workspace" max_length="40" name="ui_builder" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes, new Experience" sequence="2" value="yes_new"/>
+                <element inactive_on_update="false" label="Yes, extending an existing Experience" sequence="3" value="yes_existing"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
         <element label="Personas List" max_length="4000" name="personas_list" type="string"/>
+        <element label="Customer Contacts" max_length="2000" name="contacts_customer" type="string_full_utf8"/>
+        <element label="Country" max_length="32" name="country" reference="core_country" type="reference"/>
+        <element label="Inbound Integrations List" max_length="4000" name="integrations_inbound_list" type="string"/>
+        <element label="Data Entities List" max_length="4000" name="data_entities_list" type="string"/>
+        <element label="One-time Data Imports List" max_length="4000" name="one_time_data_imports_list" type="string"/>
+        <element choice="1" label="Now Mobile" max_length="40" name="mobile" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes, modification of existing mobile app features" sequence="3" value="yes_existing"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="Yes, introducing the Mobile App" sequence="2" value="yes_new"/>
+            </choice>
+        </element>
+        <element choice="1" label="Quality" max_length="40" name="quality" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Proof of Concept" sequence="2" value="poc"/>
+                <element inactive_on_update="false" label="Minimum Viable Product" sequence="3" value="mvp"/>
+                <element inactive_on_update="false" label="Robust Product" sequence="4" value="robust"/>
+                <element inactive_on_update="false" label="Research" sequence="1" value="research"/>
+            </choice>
+        </element>
+        <element label="Additional Tasks List" max_length="4000" name="additional_tasks_list" type="string"/>
         <element choice="1" label="Service Portal" max_length="40" name="service_portal" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Yes, extending an existing Portal" sequence="2" value="yes_existing"/>
@@ -126,22 +140,8 @@
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
             </choice>
         </element>
-        <element choice="1" label="One-time Data Imports" max_length="40" name="one_time_data_imports" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
-                <element inactive_on_update="false" label="Yes" sequence="2" value="yes"/>
-            </choice>
-        </element>
-        <element label="Service Portal Features List" mandatory="true" max_length="4000" name="service_portal_features_list" type="string"/>
-        <element choice="1" label="Web Accessibility Requirements" max_length="40" name="web_accessibility_requirements" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="None - ServiceNow OOTB capabilities are sufficient" sequence="1" value="no"/>
-                <element inactive_on_update="false" label="WCAG A" sequence="2" value="wcag_a"/>
-                <element inactive_on_update="false" label="WCAG AA" sequence="3" value="wcag_aa"/>
-                <element inactive_on_update="false" label="WCAG AAA" sequence="4" value="wcag_aaa"/>
-            </choice>
-        </element>
-        <element label="Assumptions" max_length="4000" name="assumptions" type="string"/>
-        <element label="Customer Contacts" max_length="2000" name="contacts_customer" type="string_full_utf8"/>
+        <element label="Business Processes List" max_length="4000" name="business_processes_list" type="string"/>
+        <element label="UI Builder Components List" max_length="4000" name="ui_builder_components_list" type="string"/>
+        <element label="Internal Team" max_length="2000" name="contacts_internal" type="string_full_utf8"/>
     </element>
 </database>

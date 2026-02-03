@@ -12,78 +12,82 @@
         <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-02 20:01:08</sys_created_on>
-        <sys_id>bf320912db1125106a03dad1f396198a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2026-02-03 13:09:38</sys_created_on>
+        <sys_id>b8ff681a3bf2b61062bf612c95e45a9d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Run Server Side Script</sys_name>
         <sys_package display_value="PreSales WORK IN PROGRESS" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
         <sys_policy/>
         <sys_scope display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</sys_scope>
-        <sys_update_name>sys_atf_step_bf320912db1125106a03dad1f396198a</sys_update_name>
+        <sys_update_name>sys_atf_step_b8ff681a3bf2b61062bf612c95e45a9d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-02 20:14:29</sys_updated_on>
+        <sys_updated_on>2026-02-03 13:12:24</sys_updated_on>
         <table/>
-        <test display_value="PreSales - Estimate">d512c112db1125106a03dad1f3961978</test>
+        <test display_value="PreSales - CreateBacklog">f8ff681a3bf2b61062bf612c95e45a86</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>
-    <sys_variable_value action="delete_multiple" query="document_key=bf320912db1125106a03dad1f396198a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b8ff681a3bf2b61062bf612c95e45a9d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>bf320912db1125106a03dad1f396198a</document_key>
+        <document_key>b8ff681a3bf2b61062bf612c95e45a9d</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-02 20:01:08</sys_created_on>
-        <sys_id>b5928d12db1125106a03dad1f396193a</sys_id>
+        <sys_created_on>2026-02-03 13:09:38</sys_created_on>
+        <sys_id>3cff681a3bf2b61062bf612c95e45aa2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-02 20:01:08</sys_updated_on>
+        <sys_updated_on>2026-02-03 13:09:38</sys_updated_on>
         <value>3.1</value>
         <variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>bf320912db1125106a03dad1f396198a</document_key>
+        <document_key>b8ff681a3bf2b61062bf612c95e45a9d</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-02 20:01:08</sys_created_on>
-        <sys_id>fd928d12db1125106a03dad1f396193a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2026-02-03 13:09:38</sys_created_on>
+        <sys_id>7cff681a3bf2b61062bf612c95e45aa3</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-02 20:14:29</sys_updated_on>
+        <sys_updated_on>2026-02-03 13:12:24</sys_updated_on>
         <value>(function(outputs, steps, stepResult, assertEqual)&#13;
 {&#13;
 	var test = new x_snc_devtools.TestAPI(outputs, steps, stepResult, assertEqual);&#13;
 	&#13;
 	test.SetResult(true);&#13;
-&#13;
-	function TestCase_Estimate(vInput, vExpected)&#13;
+	&#13;
+	function TestCase_CreateBacklog(vEngagement,vExpected)&#13;
 	{&#13;
-		function TestCase_Estimate_CheckResult(vInput,vExpected,vResult)&#13;
+		function TestCase_CreateBacklog_CheckResult(vInput,vExpected,vResult)&#13;
 		{&#13;
-			return true;&#13;
-		}&#13;
-&#13;
-		test.TestCase(&#13;
-			'Function Estimate()',&#13;
-			Estimate,&#13;
+			if (vExpected == false)&#13;
 			{&#13;
-				'Input': vInput&#13;
+				return (vExpected == vResult);&#13;
+			}&#13;
+			return (vExpected == vResult.length);&#13;
+		}&#13;
+		&#13;
+		test.TestCase(&#13;
+			'Function CreateBacklog()',&#13;
+			CreateBacklog,&#13;
+			{&#13;
+				'vEngagement': vEngagement&#13;
 			},&#13;
 			vExpected,&#13;
-			TestCase_Estimate_CheckResult);&#13;
+			TestCase_CreateBacklog_CheckResult);&#13;
 	}&#13;
+		&#13;
+	TestCase_CreateBacklog(null,false);&#13;
 &#13;
-	TestCase_Estimate({},null);&#13;
-	&#13;
-	TestCase_Estimate(&#13;
-		{&#13;
-			type: 'servicenow_led',&#13;
-			context: 'greenfield',&#13;
-			quality: 'robust'&#13;
-		},null);&#13;
+	var grEngagement = new GlideRecord('x_snc_pre_sales_engagement');&#13;
+	grEngagement.initialize();&#13;
+	x_snc_devtools.GlideRecordInsert(grEngagement);&#13;
+&#13;
+	TestCase_CreateBacklog(grEngagement.sys_id,2);&#13;
+&#13;
 	&#13;
 	return test.GetResult();&#13;
 	&#13;

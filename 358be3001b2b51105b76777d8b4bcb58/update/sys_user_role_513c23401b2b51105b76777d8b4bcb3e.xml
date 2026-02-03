@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>A user that can add and edit pre sales engagements.</description>
         <elevated_privilege>false</elevated_privilege>
+        <federated_id>aEdjo4Tyz35BM1AG/TSqYYkLpOtQS/Qtzve0eBuez24=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_snc_pre_sales.manager</name>

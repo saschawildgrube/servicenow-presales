@@ -5,6 +5,7 @@
         <advanced>false</advanced>
         <applies_to/>
         <condition/>
+        <controlled_by_refs/>
         <decision_type>allow</decision_type>
         <description>Allow read for records in core_country, for users with role x_snc_pre_sales.viewer.</description>
         <local_or_existing/>

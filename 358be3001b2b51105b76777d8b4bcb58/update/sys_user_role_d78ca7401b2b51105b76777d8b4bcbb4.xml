@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>A user that can view pre sales engagements.</description>
         <elevated_privilege>false</elevated_privilege>
+        <federated_id>XY1a408V8eMlrIBLPu1SZOpVmV/+Q5qOrKinLRJ9hkQ=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_snc_pre_sales.viewer</name>

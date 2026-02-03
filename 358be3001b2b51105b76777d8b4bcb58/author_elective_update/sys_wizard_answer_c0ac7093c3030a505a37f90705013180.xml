@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>PreSales Engagement</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>PreSales Engagement</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">17e6835bd12302104f34ba60d8b7c1f4</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-02 14:21:10</sys_created_on>
+        <sys_id>c0ac7093c3030a505a37f90705013180</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PreSales Engagement</sys_name>
+        <sys_package display_value="PreSales WORK IN PROGRESS" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</sys_scope>
+        <sys_update_name>sys_wizard_answer_c0ac7093c3030a505a37f90705013180</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-02 14:21:10</sys_updated_on>
+        <table/>
+        <target_url>x_snc_pre_sales_engagement.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</application>
+        <file_path/>
+        <instance_id>a8cbb5133b6b5e540fd412c5e4e45a1f</instance_id>
+        <instance_name>wildyokohama</instance_name>
+        <name>sys_wizard_answer_c0ac7093c3030a505a37f90705013180</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>PreSales Engagement</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>PreSales Engagement</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">17e6835bd12302104f34ba60d8b7c1f4</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-02 14:21:10</sys_created_on>
+        <sys_id>c0ac7093c3030a505a37f90705013180</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PreSales Engagement</sys_name>
+        <sys_package display_value="PreSales WORK IN PROGRESS" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</sys_scope>
+        <sys_update_name>sys_wizard_answer_c0ac7093c3030a505a37f90705013180</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-02 14:21:10</sys_updated_on>
+        <table/>
+        <target_url>x_snc_pre_sales_engagement.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>]]></payload>
+        <payload_hash>-1097567698</payload_hash>
+        <record_name>PreSales Engagement</record_name>
+        <reverted_from/>
+        <source>f981d5783ba76a1062bf612c95e45ad1</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-21 10:21:46</sys_created_on>
+        <sys_id>d7919d783ba76a1062bf612c95e45a33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198cc261e120000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-21 10:21:46</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>13919d7877a76a10fd4719c779a18433</update_guid>
+        <update_guid_history>13919d7877a76a10fd4719c779a18433:0,dcda56183f01ee1034bfbcf3c99f4116:0,93755a14fbcdae109c8e403441729f11:0,a05c25a7b0bcaa1052a83be48c26bbf2:0,b13be12721bcaa108959f03e433033eb:0,325c65563ff82610dd865cbfb7b19236:0,a51bed924df82610f21782d2c9fa0bd1:0,67a05509a1b8ea10a4db2b8da09cb30f:-870329827</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-03 14:28:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>cb268680443d422c958d16e0c177aae4</sys_id>
+        <sys_metadata>c0ac7093c3030a505a37f90705013180</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PreSales Engagement</sys_name>
+        <sys_package display_value="PreSales WORK IN PROGRESS" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
+        <sys_parent display_value="Task">b0a4b778e11312105590bd68cbbecb8f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</sys_scope>
+        <sys_scope_delete display_value="">d227e6d991564d2cba0e461fe46c1e10</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_c0ac7093c3030a505a37f90705013180</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_c0ac7093c3030a505a37f90705013180">d7919d783ba76a1062bf612c95e45a33</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-03 14:28:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

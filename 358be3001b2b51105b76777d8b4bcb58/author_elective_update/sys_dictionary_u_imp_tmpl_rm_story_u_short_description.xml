@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_short_description" table="u_imp_tmpl_rm_story">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=Short description</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Short description</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_short_description</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>160</max_length>
+        <name>u_imp_tmpl_rm_story</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-03 14:01:28</sys_created_on>
+        <sys_id>c4dbf8123bf6b61062bf612c95e45a5e</sys_id>
+        <sys_name>Short description</sys_name>
+        <sys_package display_value="PreSales WORK IN PROGRESS" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</sys_scope>
+        <sys_update_name>sys_dictionary_u_imp_tmpl_rm_story_u_short_description</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-03 14:01:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</application>
+        <file_path/>
+        <instance_id>a8cbb5133b6b5e540fd412c5e4e45a1f</instance_id>
+        <instance_name>wildyokohama</instance_name>
+        <name>sys_dictionary_u_imp_tmpl_rm_story_u_short_description</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_short_description" table="u_imp_tmpl_rm_story"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=Short description</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Short description</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_short_description</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>160</max_length><name>u_imp_tmpl_rm_story</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-03 14:01:28</sys_created_on><sys_id>c4dbf8123bf6b61062bf612c95e45a5e</sys_id><sys_name>Short description</sys_name><sys_package display_value="PreSales WORK IN PROGRESS" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package><sys_policy/><sys_scope display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</sys_scope><sys_update_name>sys_dictionary_u_imp_tmpl_rm_story_u_short_description</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-03 14:01:28</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-55756835</payload_hash>
+        <record_name>Imp Tmpl Rm Story.Short description</record_name>
+        <reverted_from/>
+        <source>d2387bfce19312105590bd68cbbecbc3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-03 14:01:28</sys_created_on>
+        <sys_id>48dbf8123bf6b61062bf612c95e45abe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c23cee9020000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-03 14:01:28</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>4cdbf812aef6b610f834973f8365c88b</update_guid>
+        <update_guid_history>4cdbf812aef6b610f834973f8365c88b:-55756835,677bbc5e70b6b61059dc628593900836:-1510388480,8289701a1cb6b610a4c47338760b787f:-188337868</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-03 14:54:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>06876e7fe2444ee58247b6320ee5dc51</sys_id>
+        <sys_metadata>c4dbf8123bf6b61062bf612c95e45a5e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Short description</sys_name>
+        <sys_package display_value="PreSales WORK IN PROGRESS" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
+        <sys_parent display_value="">88dbf8123bf6b61062bf612c95e45a23</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</sys_scope>
+        <sys_scope_delete display_value="">d227e6d991564d2cba0e461fe46c1e10</sys_scope_delete>
+        <sys_update_name>sys_dictionary_u_imp_tmpl_rm_story_u_short_description</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_u_imp_tmpl_rm_story_u_short_description">48dbf8123bf6b61062bf612c95e45abe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-03 14:54:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

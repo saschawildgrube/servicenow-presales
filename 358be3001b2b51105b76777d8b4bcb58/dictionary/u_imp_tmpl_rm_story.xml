@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="88dbf8123bf6b61062bf612c95e45a23" extends="sys_import_set_row" label="Imp Tmpl Rm Story" max_length="40" name="u_imp_tmpl_rm_story" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Short description" label="Short description" max_length="160" name="u_short_description" type="string"/>
-    </element>
-</database>

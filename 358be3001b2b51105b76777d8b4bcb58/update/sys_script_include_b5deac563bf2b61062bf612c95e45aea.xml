@@ -69,44 +69,41 @@
 
 	var aBacklog = [];
 	
-	var aHeaderRow = [];
-	aHeaderRow.push({ header: true, content: '#'} );
-	aHeaderRow.push({ header: true, content: 'Task'} );
-	aHeaderRow.push({ header: true, content: 'Effort (PDs)'} );
-	//aHeaderRow.push({ header: true, content: 'Role'} );
-	
 
-	
 	var aTasks = GetArrayValue(GetValue(estimate,'tasks'));
 	
 	for (var nTask = 0; nTask < aTasks.length; nTask++)
 	{
 		var task = aTasks[nTask];
 
-		var backlog_item = {};
+		if (task.type != 'management')
+		{
+			var backlog_item = {};
 
-		backlog_item.short_description = task.short_description;
-		
-		/*
-		var aRow = [];
-		
-		// Number
-		aRow.push({ content: nTask + 1, horizontal: 'right' });
-		
-		// Short Description / Task
-		aRow.push(GetValue(task,'short_description'));
-		
-		// Effort
-		aRow.push( {
-			content: RenderPersonDays(GetValue(task,'effort')),
-			horizontal: 'right'
-			});
-		
-*/
+			backlog_item.short_description = task.short_description;
+			backlog_item.task_raw = task;
+			
+			/*
+			var aRow = [];
+			
+			// Number
+			aRow.push({ content: nTask + 1, horizontal: 'right' });
+			
+			// Short Description / Task
+			aRow.push(GetValue(task,'short_description'));
+			
+			// Effort
+			aRow.push( {
+				content: RenderPersonDays(GetValue(task,'effort')),
+				horizontal: 'right'
+				});
+			
+	*/
 
-		//aRow.push('');
-						
-		aBacklog.push(backlog_item);
+			//aRow.push('');
+							
+			aBacklog.push(backlog_item);
+		}
 	}
 	
 /*	
@@ -122,14 +119,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-03 13:09:14</sys_created_on>
         <sys_id>b5deac563bf2b61062bf612c95e45aea</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>CreateBacklog</sys_name>
         <sys_package display_value="PreSales WORK IN PROGRESS" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</sys_scope>
         <sys_update_name>sys_script_include_b5deac563bf2b61062bf612c95e45aea</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-03 13:13:49</sys_updated_on>
+        <sys_updated_on>2026-02-03 13:23:27</sys_updated_on>
         <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">

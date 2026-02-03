@@ -31,9 +31,9 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Internationalization</sys_name>
         <sys_overrides/>
-        <sys_package display_value="PreSales WORK IN PROGRESS" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
+        <sys_package display_value="PreSales" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
         <sys_policy/>
-        <sys_scope display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</sys_scope>
+        <sys_scope display_value="PreSales">358be3001b2b51105b76777d8b4bcb58</sys_scope>
         <sys_update_name>sys_ui_policy_dbdf2f79db7121906a03dad1f396199b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-26 15:53:00</sys_updated_on>

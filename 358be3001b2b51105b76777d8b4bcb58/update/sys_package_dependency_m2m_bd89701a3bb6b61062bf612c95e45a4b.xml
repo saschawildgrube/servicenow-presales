@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">cff3b3f0e11312105590bd68cbbecbd2</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-03 13:51:29</sys_created_on>
+        <sys_id>bd89701a3bb6b61062bf612c95e45a4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="PreSales WORK IN PROGRESS" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-03 13:51:29</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

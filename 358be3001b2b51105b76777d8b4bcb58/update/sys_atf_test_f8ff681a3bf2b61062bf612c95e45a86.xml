@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description/>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>false</fail_on_server_error>
+        <name>PreSales - CreateBacklog</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-03 13:09:38</sys_created_on>
+        <sys_id>f8ff681a3bf2b61062bf612c95e45a86</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PreSales - CreateBacklog</sys_name>
+        <sys_package display_value="PreSales" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PreSales">358be3001b2b51105b76777d8b4bcb58</sys_scope>
+        <sys_update_name>sys_atf_test_f8ff681a3bf2b61062bf612c95e45a86</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-03 13:09:38</sys_updated_on>
+        <test_origin>manual</test_origin>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=f8ff681a3bf2b61062bf612c95e45a86"/>
+</record_update>

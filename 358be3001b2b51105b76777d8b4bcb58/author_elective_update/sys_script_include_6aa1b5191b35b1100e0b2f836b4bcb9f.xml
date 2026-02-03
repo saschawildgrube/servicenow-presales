@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_pre_sales.DevToolsGetApplicationStatus</api_name>
+        <caller_access>1</caller_access>
+        <client_callable>false</client_callable>
+        <description>The function DevToolsGetApplicationStatus is called by the DevTools extension point instance class and returns the application status object with additional status information to be displayed on the "DevTools Application Overview" page.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>DevToolsGetApplicationStatus</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[function DevToolsGetApplicationStatus(status)
+{
+	return status;
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 13:35:25</sys_created_on>
+        <sys_id>6aa1b5191b35b1100e0b2f836b4bcb9f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>DevToolsGetApplicationStatus</sys_name>
+        <sys_package display_value="PreSales WORK IN PROGRESS" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</sys_scope>
+        <sys_update_name>sys_script_include_6aa1b5191b35b1100e0b2f836b4bcb9f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 13:37:38</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PreSales">358be3001b2b51105b76777d8b4bcb58</application>
+        <file_path/>
+        <instance_id>a8cbb5133b6b5e540fd412c5e4e45a1f</instance_id>
+        <instance_name>wildyokohama</instance_name>
+        <name>sys_script_include_6aa1b5191b35b1100e0b2f836b4bcb9f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;public&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_snc_pre_sales.DevToolsGetApplicationStatus&lt;/api_name&gt;
+        &lt;caller_access&gt;1&lt;/caller_access&gt;
+        &lt;client_callable&gt;false&lt;/client_callable&gt;
+        &lt;description&gt;The function DevToolsGetApplicationStatus is called by the DevTools extension point instance class and returns the application status object with additional status information to be displayed on the "DevTools Application Overview" page.&lt;/description&gt;
+        &lt;mobile_callable&gt;false&lt;/mobile_callable&gt;
+        &lt;name&gt;DevToolsGetApplicationStatus&lt;/name&gt;
+        &lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;
+        &lt;script&gt;&lt;![CDATA[function DevToolsGetApplicationStatus(status)
+{
+	return status;
+}]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-10-09 13:35:25&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;6aa1b5191b35b1100e0b2f836b4bcb9f&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;DevToolsGetApplicationStatus&lt;/sys_name&gt;
+        &lt;sys_package display_value="PreSales WORK IN PROGRESS" source="x_snc_pre_sales"&gt;358be3001b2b51105b76777d8b4bcb58&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="PreSales WORK IN PROGRESS"&gt;358be3001b2b51105b76777d8b4bcb58&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_6aa1b5191b35b1100e0b2f836b4bcb9f&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-10-09 13:37:38&lt;/sys_updated_on&gt;
+        &lt;x_snc_devtools_sys_ui_script/&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1231608710</payload_hash>
+        <record_name>DevToolsGetApplicationStatus</record_name>
+        <reverted_from/>
+        <source>f981d5783ba76a1062bf612c95e45ad1</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-21 10:21:41</sys_created_on>
+        <sys_id>02915d783ba76a1062bf612c95e45a3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198cc260a170000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-21 10:21:41</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>4a915d784ba76a1015eb711eca613a39</update_guid>
+        <update_guid_history>4a915d784ba76a1015eb711eca613a39:0,5fcad218c701ee100a2ffd58592bffc3:0,e6759614a4cdae10a02eadc987585358:0,174ce1a7cfbcaa10b6a65456f7bcb81d:0,7c3ba12777bcaa1012674503378a117b:0,255ce1569cf82610de0563db929dca56:0,c11bed92b0f82610a7218267e6f4055d:0,aaa01509f7b8ea10726da6d473541817:-204154502</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-03 14:26:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>07a2c46858e34852a992779cbac67281</sys_id>
+        <sys_metadata>6aa1b5191b35b1100e0b2f836b4bcb9f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DevToolsGetApplicationStatus</sys_name>
+        <sys_package display_value="PreSales" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PreSales">358be3001b2b51105b76777d8b4bcb58</sys_scope>
+        <sys_scope_delete display_value="">d227e6d991564d2cba0e461fe46c1e10</sys_scope_delete>
+        <sys_update_name>sys_script_include_6aa1b5191b35b1100e0b2f836b4bcb9f</sys_update_name>
+        <sys_update_version display_value="sys_script_include_6aa1b5191b35b1100e0b2f836b4bcb9f">02915d783ba76a1062bf612c95e45a3a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-03 14:26:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

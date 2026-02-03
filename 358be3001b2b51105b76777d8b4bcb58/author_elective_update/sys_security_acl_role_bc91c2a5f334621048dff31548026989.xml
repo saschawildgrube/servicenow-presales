@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>@@snc_write_audit@@</sys_created_by>
+        <sys_created_on>2025-05-10 04:32:07</sys_created_on>
+        <sys_id>bc91c2a5f334621048dff31548026989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</sys_scope>
+        <sys_security_acl display_value="x_snc_pre_sales_engagement">bc91c2a5f334621048dff31077101471</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_bc91c2a5f334621048dff31548026989</sys_update_name>
+        <sys_updated_by>@@snc_write_audit@@</sys_updated_by>
+        <sys_updated_on>2025-05-10 04:32:07</sys_updated_on>
+        <sys_user_role display_value="public" name="public">b0593b350a0a0aa7001d689e4542dc28</sys_user_role>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PreSales">358be3001b2b51105b76777d8b4bcb58</application>
+        <file_path/>
+        <instance_id>a8cbb5133b6b5e540fd412c5e4e45a1f</instance_id>
+        <instance_name>wildyokohama</instance_name>
+        <name>sys_security_acl_role_bc91c2a5f334621048dff31548026989</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>@@snc_write_audit@@</sys_created_by>
+        <sys_created_on>2025-05-10 04:32:07</sys_created_on>
+        <sys_id>bc91c2a5f334621048dff31548026989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</sys_scope>
+        <sys_security_acl display_value="x_snc_pre_sales_engagement">bc91c2a5f334621048dff31077101471</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_bc91c2a5f334621048dff31548026989</sys_update_name>
+        <sys_updated_by>@@snc_write_audit@@</sys_updated_by>
+        <sys_updated_on>2025-05-10 04:32:07</sys_updated_on>
+        <sys_user_role display_value="public" name="public">b0593b350a0a0aa7001d689e4542dc28</sys_user_role>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>-1923554205</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f981d5783ba76a1062bf612c95e45ad1</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-21 10:21:44</sys_created_on>
+        <sys_id>3a915d783ba76a1062bf612c95e45aa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198cc2614440000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-21 10:21:44</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>f6915d78dfa76a10e10f743a1bdc9da2</update_guid>
+        <update_guid_history>f6915d78dfa76a10e10f743a1bdc9da2:-1923554205</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_pre_sales_engagement.public">d1bc89d63bbab61062bf612c95e45ac4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>@@snc_write_audit@@</sys_created_by>
+        <sys_created_on>2026-02-03 15:15:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>13bd204133f641e1859b40a629996d51</sys_id>
+        <sys_metadata>bc91c2a5f334621048dff31548026989</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_pre_sales_engagement.public</sys_name>
+        <sys_package display_value="PreSales" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PreSales">358be3001b2b51105b76777d8b4bcb58</sys_scope>
+        <sys_scope_delete display_value="">d227e6d991564d2cba0e461fe46c1e10</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_bc91c2a5f334621048dff31548026989</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_bc91c2a5f334621048dff31548026989">3a915d783ba76a1062bf612c95e45aa2</sys_update_version>
+        <sys_updated_by>@@snc_write_audit@@</sys_updated_by>
+        <sys_updated_on>2026-02-03 15:15:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

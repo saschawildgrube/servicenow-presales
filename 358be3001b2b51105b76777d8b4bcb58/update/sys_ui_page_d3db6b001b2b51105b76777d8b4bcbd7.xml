@@ -16,8 +16,17 @@
 	
 	<p>Welcome to PreSales - created and maintained by&#160;<a href="mailto:sascha.wildgrube@servicenow.com">Sascha Wildgrube</a>.</p>
 
+	<h2>Overview</h2> 
+	<g2:no_escape>$[
+		docapi.RenderDescription();  
+	]</g2:no_escape>		
+
+	<h2>Table of Contents</h2>
+	<g2:no_escape>$[x_snc_devtools.HtmlRenderTableOfContents()]</g2:no_escape>	
+
 	<h2>Features</h2> 
-	<p>The PreSales app helps to track (ServiceNow-related) presales engagements and to create drafts for effort estimates.</p>
+	<p>The PreSales app helps to track (ServiceNow-related) presales engagements and to create effort estimates.</p>
+	<p>Draft backlogs can be generated based on the identified tasks, components and capabilities.</p>
 
 	<h2>Disclaimer</h2>
 	<g2:no_escape>$[docapi.RenderDisclaimer()]</g2:no_escape>	
@@ -26,7 +35,7 @@
 	<ul>
 		<g2:no_escape>$[
 			docapi.RenderSystemRequirements(
-				'Xanadu,Yokohama',
+				'Yokohama,Zurich',
 				true,
 				AppGetDependencies());
 		]</g2:no_escape>	
@@ -68,17 +77,31 @@
 	<h3>Script Includes</h3>
 	<g2:no_escape>$[docapi.RenderScriptIncludes()]</g2:no_escape>
 
-	<h3>Dependencies</h3>
+	<h2>Dependencies</h2>
 	<g2:no_escape>$[docapi.RenderDependencies()]</g2:no_escape>	
 
-	<h3>Technical Debts</h3>
-	<g2:no_escape>$[docapi.RenderTechnicalDebts()]</g2:no_escape>		
+	<h2>Technical Debt</h2>
+	<g2:no_escape>$[docapi.RenderTechnicalDebt()]</g2:no_escape>		
 
 	<h2>License</h2>
 	<g2:no_escape>$[docapi.RenderCopyright(2023,'Sascha Wildgrube')]</g2:no_escape>
 	<g2:no_escape>$[docapi.RenderLicense()]</g2:no_escape>
 	
-	<h2>Release Notes</h2>
+	<h2 toc-ignore-children="true">Release Notes</h2>
+
+	<h3>1.8.0 - 2026-02-03</h3>
+	<ol>
+		<li>DevTools 1.136.0 is now required.</li>
+		<li>Xanadu is no longer actively supported.</li>
+		<li>PreSales is fully tested with Zurich.</li>
+		<li>Added UI Action "Export Backlog as CSV".</li>
+		<li>Added function CreateBacklog().</li>
+		<li>Added processor "PreSalesEngagementBacklogExportCsv".</li>
+		<li>Fixed CodeSanity findings.</li>
+		<li>Fixed ATF test steps.</li>
+		<li>Removed not needed boilerplate code.</li>
+	</ol>
+
 
 	<h3>1.7.0 - 2025-04-17</h3>
 	<ol>
@@ -146,14 +169,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-29 08:44:29</sys_created_on>
         <sys_id>d3db6b001b2b51105b76777d8b4bcbd7</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_name>manual</sys_name>
         <sys_package display_value="PreSales" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
         <sys_policy/>
         <sys_scope display_value="PreSales">358be3001b2b51105b76777d8b4bcb58</sys_scope>
         <sys_update_name>sys_ui_page_d3db6b001b2b51105b76777d8b4bcbd7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-17 19:40:45</sys_updated_on>
+        <sys_updated_on>2026-02-03 15:11:09</sys_updated_on>
     </sys_ui_page>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>d3db6b001b2b51105b76777d8b4bcbd7</id>

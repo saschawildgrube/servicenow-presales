@@ -6,9 +6,9 @@
         <sys_id>c1969250dbb929506a03dad1f39619c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_pre_sales_engagement.x_snc_pre_sales.viewer</sys_name>
-        <sys_package display_value="PreSales" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
+        <sys_package display_value="PreSales WORK IN PROGRESS" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
         <sys_policy/>
-        <sys_scope display_value="PreSales">358be3001b2b51105b76777d8b4bcb58</sys_scope>
+        <sys_scope display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</sys_scope>
         <sys_security_acl display_value="x_snc_pre_sales_engagement">817ce3401b2b51105b76777d8b4bcbd1</sys_security_acl>
         <sys_update_name>sys_security_acl_role_c1969250dbb929506a03dad1f39619c6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

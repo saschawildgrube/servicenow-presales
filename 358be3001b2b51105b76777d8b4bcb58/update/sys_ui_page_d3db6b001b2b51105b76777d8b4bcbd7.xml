@@ -91,7 +91,7 @@
 
 	<h3>1.8.0 - TODO</h3>
 	<ol>
-		<li>DevTools 1.131.0 is now required.</li>
+		<li>DevTools 1.136.0 is now required.</li>
 		<li>Xanadu is no longer actively supported.</li>
 		<li>PreSales is fully tested with Zurich.</li>
 		<li>Added UI Action "Export Backlog as CSV".</li>
@@ -169,14 +169,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-29 08:44:29</sys_created_on>
         <sys_id>d3db6b001b2b51105b76777d8b4bcbd7</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>49</sys_mod_count>
         <sys_name>manual</sys_name>
         <sys_package display_value="PreSales WORK IN PROGRESS" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
         <sys_policy/>
         <sys_scope display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</sys_scope>
         <sys_update_name>sys_ui_page_d3db6b001b2b51105b76777d8b4bcbd7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-03 14:27:23</sys_updated_on>
+        <sys_updated_on>2026-02-03 14:47:11</sys_updated_on>
     </sys_ui_page>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>d3db6b001b2b51105b76777d8b4bcbd7</id>

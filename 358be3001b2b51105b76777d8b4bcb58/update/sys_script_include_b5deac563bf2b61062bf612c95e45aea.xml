@@ -9,7 +9,7 @@
         <mobile_callable>false</mobile_callable>
         <name>CreateBacklog</name>
         <sandbox_callable>false</sandbox_callable>
-        <script><![CDATA[function CreateBacklog(vEngagement)
+        <script><![CDATA[function CreateBacklog(vEngagement,bOpenQuestions)
 {
 	var GetRecord = x_snc_devtools.GetRecord;
 	var IsValidRecord = x_snc_devtools.IsValidRecord;
@@ -25,53 +25,30 @@
 	{
 		return false;
 	}
+
+	bOpenQuestions = GetBoolValue(bOpenQuestions);
 	
 	var estimate = Estimate(grEngagement);
 	
-/*	
-	// Base info
 	
-	strHtml += '<h2>' + grEngagement.company_name + ' - ' + grEngagement.short_description + '</h2>';
-
-	strHtml += '<p>As of ' + RenderDateTime(GetTimeNow()) + ' UTC</p>';
-	
-	var strReference = GetStringValue(grEngagement.reference);
-	strReference = strReference.trim();
-	if (strReference != '')
-	{
-		strHtml += '<p><b>Reference</b> ' + strReference + '</p>';
-	}
-	strHtml += '<p><b>Context/Requirements/Description</b></p>';
-	var strDescription = GetStringValue(grEngagement.description);
-	strDescription = strDescription.trim();
-	if (strDescription == '')
-	{
-		strHtml += '<p>'+HtmlRenderError('Description is missing!')+'</p>';
-	}
-	else
-	{
-		strHtml += '<p>'+ HtmlEncode(grEngagement.description) + '</p>';
-	}
-*/
-
-/*
-	// Open Questions
-	var aOpenQuestions = GetArrayValue(GetValue(estimate,'open_questions'));
-	if (aOpenQuestions.length > 0)
-	{
-		strHtml += '<p><b>Open Questions</b></p>';
-		strHtml += HtmlRenderOrderedList(aOpenQuestions);
-	}
-	
-	strHtml += '<p><b>Effort Breakdown</b></p>';
-
-*/
 
 	var aBacklog = [];
 	
+	if (bOpenQuestions == true)
+	{
+		var aQuestions = GetArrayValue(GetValue(estimate,'open_questions'));
+		for (var nQuestion = 0; nQuestion < aQuestions.length; nQuestion++)
+		{
+			var strQuestion = aQuestions[nQuestion];
+
+			var backlog_item = {};
+
+			backlog_item['Short description'] = 'Open Question: ' + strQuestion;
+			aBacklog.push(backlog_item);
+		}
+	}
 
 	var aTasks = GetArrayValue(GetValue(estimate,'tasks'));
-	
 	for (var nTask = 0; nTask < aTasks.length; nTask++)
 	{
 		var task = aTasks[nTask];
@@ -87,11 +64,8 @@
 		}
 	}
 	
-/*	
-	strHtml += '<p><b>Assumptions</b></p>';
-	var aAssumptions = GetArrayValue(GetValue(estimate,'assumptions'));
-	strHtml += HtmlRenderOrderedList(aAssumptions);
-*/
+	// Add assumption verification to the backlog?
+	//var aAssumptions = GetArrayValue(GetValue(estimate,'assumptions'));
 	
 	return aBacklog;	
 }
@@ -100,14 +74,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-03 13:09:14</sys_created_on>
         <sys_id>b5deac563bf2b61062bf612c95e45aea</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>CreateBacklog</sys_name>
         <sys_package display_value="PreSales WORK IN PROGRESS" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</sys_scope>
         <sys_update_name>sys_script_include_b5deac563bf2b61062bf612c95e45aea</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-03 13:54:11</sys_updated_on>
+        <sys_updated_on>2026-02-03 14:16:38</sys_updated_on>
         <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">

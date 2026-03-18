@@ -42,7 +42,7 @@
     </sys_app_module>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</application>
+        <application display_value="PreSales">358be3001b2b51105b76777d8b4bcb58</application>
         <file_path/>
         <instance_id>a8cbb5133b6b5e540fd412c5e4e45a1f</instance_id>
         <instance_name>wildyokohama</instance_name>
@@ -75,10 +75,10 @@
         <sys_metadata>ca89701a3bb6b61062bf612c95e45ad1</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Imp Tmpl Rm Story</sys_name>
-        <sys_package display_value="PreSales WORK IN PROGRESS" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
+        <sys_package display_value="PreSales" source="x_snc_pre_sales">358be3001b2b51105b76777d8b4bcb58</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_scope display_value="PreSales WORK IN PROGRESS">358be3001b2b51105b76777d8b4bcb58</sys_scope>
+        <sys_scope display_value="PreSales">358be3001b2b51105b76777d8b4bcb58</sys_scope>
         <sys_scope_delete display_value="">d227e6d991564d2cba0e461fe46c1e10</sys_scope_delete>
         <sys_update_name>sys_app_module_ca89701a3bb6b61062bf612c95e45ad1</sys_update_name>
         <sys_update_version display_value="sys_app_module_ca89701a3bb6b61062bf612c95e45ad1">4289701a3bb6b61062bf612c95e45ad7</sys_update_version>
